@@ -4,7 +4,7 @@ const projects = [
   {
     id: 1,
     title: "Auction Hub",
-    description: "Developed a real-time player auction system using Spring Boot REST APIs and WebSocket for live bidding and instant updates. Built a Next.js frontend with intuitive dashboards for team managers and admins, deployed on AWS for scalability.",
+    description: "Developed a real-time player auction system using Spring Boot REST APIs and WebSocket for live bidding and instant updates.",
     image: "/projects/auction_system.jpg",
     tags: ["Spring Boot", "Next.js", "MySQL", "WebSocket", "AWS", "Redis"],
     demoUrl: "#",
@@ -14,7 +14,7 @@ const projects = [
   {
     id: 2,
     title: "Applicant Tracking System (ATS)",
-    description: "Designed and developed a recruiter-focused Applicant Tracking System to manage job postings and efficiently review large volumes of applications. Implemented secure authentication and authorization using JWT with role-based access control for recruiters and applicants. Built end-to-end job posting, applicant submission, and application status tracking workflows. Integrated PostgreSQL (Neon) with Prisma ORM for reliable, production-ready data persistence. Applied clean, modular architecture using Next.js and TypeScript to ensure scalability and maintainability. Deployed the application on Vercel with GitHub-based CI/CD for automatic production deployments.",
+    description: "Designed and developed a recruiter-focused Applicant Tracking System to manage job postings and efficiently review large volumes of applications.",
     image: "/projects/ats_project.jpg",
     tags: ["Next.js", "TypeScript", "Prisma", "PostgreSQL", "JWT", "Vercel"],
     demoUrl: "https://ats-tau-five.vercel.app/login",
