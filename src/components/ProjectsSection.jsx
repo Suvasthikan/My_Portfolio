@@ -3,6 +3,25 @@ import { ArrowRight, ExternalLink, Github } from "lucide-react";
 const projects = [
   {
     id: 1,
+    title: "Auction Hub",
+    description: "Developed a real-time player auction system using Spring Boot REST APIs and WebSocket for live bidding and instant updates. Built a Next.js frontend with intuitive dashboards for team managers and admins, deployed on AWS for scalability.",
+    image: "/projects/auction_system.jpg",
+    tags: ["Spring Boot", "Next.js", "MySQL", "WebSocket", "AWS", "Redis"],
+    demoUrl: "#",
+    githubUrl: "https://github.com/Vithus24/Auction_Frontend",
+    githubUrl: "https://github.com/Vithus24/Auction_Backend"
+  },
+  {
+    id: 2,
+    title: "Applicant Tracking System (ATS)",
+    description: "Designed and developed a recruiter-focused Applicant Tracking System to manage job postings and efficiently review large volumes of applications. Implemented secure authentication and authorization using JWT with role-based access control for recruiters and applicants. Built end-to-end job posting, applicant submission, and application status tracking workflows. Integrated PostgreSQL (Neon) with Prisma ORM for reliable, production-ready data persistence. Applied clean, modular architecture using Next.js and TypeScript to ensure scalability and maintainability. Deployed the application on Vercel with GitHub-based CI/CD for automatic production deployments.",
+    image: "/projects/ats_project.jpg",
+    tags: ["Next.js", "TypeScript", "Prisma", "PostgreSQL", "JWT", "Vercel"],
+    demoUrl: "https://ats-tau-five.vercel.app/login",
+    githubUrl: "https://github.com/Suvasthikan/ats"
+  },
+  {
+    id: 3,
     title: "Invest-Mate",
     description: "Final year project-Ongoing  AI-Driven Personalized Financial Planning and Investment Strategy for Student.",
     image: "/projects/project1.jpg",
@@ -11,7 +30,7 @@ const projects = [
     githubUrl: "#",
   },
   {
-    id: 2,
+    id: 4,
     title: " Testing Automation",
     description:
       " Tested REST API queries to verify API functioning, making sure that response times, status codes, and data accuracy were all right.",
@@ -21,7 +40,7 @@ const projects = [
     githubUrl: "#",
   },
   {
-    id: 3,
+    id: 5,
     title: "E-commerce Platform",
     description:
       "  The supermarket management system, employing Spring Boot technology, enhances customer shopping with user-friendly features.",
@@ -31,7 +50,7 @@ const projects = [
     githubUrl: "#",
   },
   {
-    id: 4,
+    id: 6,
     title: "Intern Management System",
     description:
       "Develop a digital platform for a technological solution which will be designed to help companies to find the intern pool. Also, interns can find the right opportunities available in companies.",
@@ -41,7 +60,7 @@ const projects = [
     githubUrl: "#",
   },
   {
-    id: 5,
+    id: 7,
     title: "HardWare Project",
     description:
       "Developed a system to automate the process of French fry from potato which reduces the cost exponentially.",
