@@ -15,7 +15,7 @@ const projects = [
     id: 2,
     title: "Applicant Tracking System (ATS)",
     description: "Designed and developed a recruiter-focused Applicant Tracking System to manage job postings and efficiently review large volumes of applications.",
-    image: "/projects/ats_project.jpg",
+    image: "/projects/ats_project.png",
     tags: ["Next.js", "TypeScript", "Prisma", "PostgreSQL", "JWT", "Vercel"],
     demoUrl: "https://ats-tau-five.vercel.app/login",
     githubUrl: "https://github.com/Suvasthikan/ats"
